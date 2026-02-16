@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rosell Docs</title>
+  <meta name="description" content="Professional documentation hub by Rosell — software, data, and engineering insights." />
+  <link rel="stylesheet" href="../docs/style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Rosell<span>.</span></h1>
+      <p class="subtitle">
+        Documentation · Software Engineering · Data Science
+      </p>
+
+      <div class="actions">
+        <a href="#docs" class="btn primary">View Documentation</a>
+        <a href="https://github.com/RossTwilight" class="btn secondary" target="_blank">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="docs" class="section">
+      <h2>About This Repository</h2>
+      <p>
+        This repository serves as a centralized hub for technical documentation,
+        best practices, and learning resources related to software development,
+        data science, and modern engineering workflows.
+      </p>
+    </section>
+
+    <section class="section grid">
+      <div class="card">
+        <h3>📘 Documentation</h3>
+        <p>Clear, structured, and practical docs for real-world projects.</p>
+      </div>
+
+      <div class="card">
+        <h3>⚙️ Engineering</h3>
+        <p>Architecture, Git workflows, automation, and best practices.</p>
+      </div>
+
+      <div class="card">
+        <h3>📊 Data & Analysis</h3>
+        <p>Notes, experiments, and insights from data-driven work.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      © <span id="year"></span> Rosell · Built with simplicity and purpose
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
